@@ -17,7 +17,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
+        # 
     steps:
       # get access to your Portfolio code via pre-built actions
       # clones or checks out the code where this workflow is written
@@ -35,7 +35,7 @@ jobs:
       - name: Upload static files
         uses: actions/upload-pages-artifact@v4
         with:
-          path: "."
+          path: "." #static file paths in the cuurent directory
 
       # Make page Live
       # STEP 4
