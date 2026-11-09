@@ -1,0 +1,43 @@
+.edu-table-wrap {
+  overflow-x: auto;
+  border-top: 1px solid var(--border);
+}
+
+.edu {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 560px;
+}
+
+.edu th,
+.edu td {
+  text-align: left;
+  padding: 18px 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+.edu th {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  font-weight: 500;
+}
+
+.edu td {
+  color: var(--text-dim);
+}
+
+.edu .qual {
+  color: var(--text);
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.edu .score {
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: 13px;
+}

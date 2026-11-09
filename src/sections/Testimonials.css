@@ -1,0 +1,16 @@
+.testimonials .section-title {
+  margin-bottom: 12px;
+}
+
+.testimonials-note {
+  max-width: 46ch;
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  margin-bottom: 28px;
+}
+
+.testimonials-stage {
+  min-height: 0;
+  overflow-x: clip;
+  padding: 1.5rem 0.25rem 0;
+}

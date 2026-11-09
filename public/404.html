@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <script>
+      ;(function () {
+        var base = '/PortfolioWesite'
+        var path = location.pathname
+        var search = location.search || ''
+        var hash = location.hash || ''
+        if (path.indexOf(base) === 0) {
+          var rest = path.slice(base.length) || '/'
+          sessionStorage.setItem('spa-redirect', rest + search + hash)
+          location.replace(base + '/' + (hash || ''))
+        } else {
+          location.replace(base + '/')
+        }
+      })()
+    </script>
+    <meta http-equiv="refresh" content="0;url=/PortfolioWesite/" />
+  </head>
+  <body>
+    <p>
+      <a href="/PortfolioWesite/">Continue to portfolio</a>
+    </p>
+  </body>
+</html>

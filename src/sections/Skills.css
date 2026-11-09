@@ -1,0 +1,27 @@
+.skills-stack {
+  margin-bottom: 8px;
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+.skills-active {
+  margin-top: 8px;
+  padding-top: 8px;
+}
+
+.skills-active .cmd {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--text-faint);
+  margin-bottom: 14px;
+}
+
+.skills-active .prompt {
+  color: var(--green);
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

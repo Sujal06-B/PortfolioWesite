@@ -1,0 +1,43 @@
+.contact-panel {
+  text-align: center;
+  padding: 56px 28px;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) + 4px);
+  background:
+    radial-gradient(ellipse 60% 80% at 50% 0%, var(--green-soft), transparent 60%),
+    var(--bg-elevated);
+}
+
+.section-tag.center {
+  justify-content: center;
+}
+
+.section-tag.center::before {
+  display: none;
+}
+
+.contact-panel h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  letter-spacing: -0.035em;
+  margin-bottom: 14px;
+}
+
+.contact-panel > p {
+  color: var(--text-dim);
+  max-width: 42ch;
+  margin: 0 auto 28px;
+}
+
+.contact-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.location {
+  margin-top: 24px;
+  font-size: 13px;
+  color: var(--text-faint);
+}

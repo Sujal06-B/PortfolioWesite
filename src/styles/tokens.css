@@ -1,0 +1,57 @@
+:root,
+[data-theme='dark'] {
+  /* Precision Ink - DevOps / Systems Engineering theme */
+  --bg: #06090f;
+  --bg-elevated: #0b1018;
+  --surface: #101720;
+  --surface-hover: #15202c;
+  --border: rgba(186, 206, 232, 0.12);
+  --border-strong: rgba(186, 206, 232, 0.20);
+  --text: #f0f4f8;
+  --text-dim: #a6b4c9;
+  --text-faint: #8090a7;
+
+  /* Primary signal: refined teal / infra mint */
+  --green: #3dbaa4;
+  --green-soft: rgba(61, 186, 164, 0.14);
+  --green-dim: #2a8f7d;
+  --green-bright: #56d4bc;
+
+  /* Secondary: warm champagne */
+  --amber: #d2b384;
+  --amber-soft: rgba(210, 179, 132, 0.14);
+
+  --ink-on-accent: #041210;
+  --radius: 14px;
+  --radius-sm: 9px;
+  --maxw: 1120px;
+  --nav-h: 68px;
+  --font-display: 'Syne', system-ui, sans-serif;
+  --font-body: 'Source Sans 3', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft: cubic-bezier(0.32, 0.72, 0, 1);
+  --header-bg: rgba(6, 9, 15, 0.78);
+  --footer-bg: rgba(11, 16, 24, 0.9);
+}
+
+[data-theme='light'] {
+  --bg: #f4f7f8;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --surface-hover: #eef3f4;
+  --border: rgba(15, 30, 40, 0.08);
+  --border-strong: rgba(15, 30, 40, 0.14);
+  --text: #121a22;
+  --text-dim: #4a5a68;
+  --text-faint: #748290;
+  --green: #1f9f86;
+  --green-soft: rgba(31, 159, 134, 0.12);
+  --green-dim: #187a67;
+  --green-bright: #24b899;
+  --amber: #b8893f;
+  --amber-soft: rgba(184, 137, 63, 0.14);
+  --ink-on-accent: #041210;
+  --header-bg: rgba(244, 247, 248, 0.86);
+  --footer-bg: #e8eef0;
+}

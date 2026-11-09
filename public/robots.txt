@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sujal06-b.github.io/PortfolioWesite/sitemap.xml

@@ -1,0 +1,47 @@
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.brand-logo__mark {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+}
+
+.brand-logo--compact .brand-logo__mark {
+  width: 32px;
+  height: 32px;
+}
+
+.brand-logo__word {
+  display: inline-flex;
+  align-items: baseline;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.brand-logo__name {
+  color: var(--text);
+}
+
+.brand-logo__dot {
+  color: var(--green);
+}
+
+.brand-logo__role {
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+@media (max-width: 520px) {
+  .brand-logo__word {
+    display: none;
+  }
+}

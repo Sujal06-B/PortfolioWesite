@@ -1,0 +1,37 @@
+---
+description: Use installed project design skills for UI/UX work on Home, About, Services, Events
+globs: client/src/pages/**,client/src/**/*.css,client/src/**/*.scss
+alwaysApply: false
+---
+
+# Design skills (project)
+
+When designing or changing UI on in-scope pages (Home, About Us, Services, Events), **read and follow** the relevant skills under `.cursor/skills/` before writing UI code.
+
+## Default stack (use together)
+
+1. **frontend-design** — distinctive aesthetic direction; avoid templated AI looks
+2. **design-taste-frontend** — layout, typography, motion, density dials (anti-slop)
+3. **ui-ux-pro-max** — design-system search / style / palette / typography guidance
+4. **emil-design-eng** — animation and micro-interaction quality
+5. **impeccable** — design commands (`critique`, `polish`, `audit`, `animate`, etc.) and detector rules
+
+Also respect existing project docs: `docs/OVA_WEBSITE_DESIGN_GUIDE.md` and OVA’s four objectives.
+
+## When to pull specialized skills
+
+| Need | Skill |
+|------|--------|
+| Redesign existing UI | `redesign-existing-projects` |
+| Softer / premium polish | `high-end-visual-design` |
+| Animation from scratch | `animate` |
+| Review motion | `review-animations` |
+| Find motion opportunities | `find-animation-opportunities` |
+| Tailwind / shadcn styling | `ui-styling` |
+| Brand voice / identity | `brand` |
+
+## Hard constraints
+
+- Prefer project visual language over generic SaaS/AI defaults (Inter-only, purple gradients, nested cards, emoji-as-icons).
+- Keep scope to Home / About / Services / Events unless the user asks otherwise.
+- After substantial UI changes, run an Impeccable-style pass: hierarchy, a11y, responsive, motion restraint.

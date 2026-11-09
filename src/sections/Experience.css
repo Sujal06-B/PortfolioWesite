@@ -1,0 +1,11 @@
+.experience .section-title {
+  margin-bottom: 12px;
+}
+
+.journey-intro {
+  max-width: 46ch;
+  color: var(--text-dim);
+  font-size: 1.02rem;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
